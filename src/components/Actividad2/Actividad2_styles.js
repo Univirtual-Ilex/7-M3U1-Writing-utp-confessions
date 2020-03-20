@@ -81,6 +81,12 @@ li {
 .float_left{
     float: right;
 }
+p{
+    color: ${Ilex.textos};
+}
+.check{
+    margin-top: 8.8em;
+}
 `
 
 export default styles

@@ -15,13 +15,13 @@ const Home_base = function ({staticContext, ...props}) { // se le pasan las prop
                             <h1> UTP confessions</h1>
                             <p>
                             Go to the internet and read some information about one influential person who has made important contributions in your academic field. Take notes and write a text that is similar to Malala’s text. Write in no less than 150 words.</p>
-                            <ButtonLink to='/actividad1'>Start</ButtonLink>
+                            <ButtonLink  className="start" to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
                     <div className='bloque-derecho'>
-                    	<ICol mt={3} >
+                    	<ICol>
 	                        <figure>
-	                            <img src='./src/cover.png' alt='Logo' />    
+	                            <img className="img" src='./src/cover.png' alt='Logo' />    
 	                        </figure>
                     	</ICol>
 

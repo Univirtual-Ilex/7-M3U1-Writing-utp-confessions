@@ -24,6 +24,7 @@ const mistyles = css`
     border-radius: 0.5em;
     text-align: justify;
     text-justify: inter-word;
+    color: ${Ilex.textos};
 }
 .dnd{
 	width: 100%;
@@ -91,7 +92,9 @@ li {
 .float_left{
 	float: right;
 }
-
+.title{
+    margin-top: -1em;
+}
 `
 
 export const DraggablesContainer = styled.div`

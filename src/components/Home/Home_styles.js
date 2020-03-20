@@ -19,12 +19,14 @@ const estilos_home = css`
     .bloque-izquierdo {
         padding:5em 3em 3em 5em;
         box-sizing:border-box;
+        margin-top: 3em;
         .bloque-izquierdo-container{
         width:27.5em;
         margin: auto;
          }
          p{
              margin: 2em 0;
+             width: 80%;
              color: ${Ilex.textos};
 
          }
@@ -50,6 +52,14 @@ const estilos_home = css`
     }
     .saldida-top-X{
         animation-name: ${animations.entrada_top_Y}
+    }
+    .img{
+        transform: scale(0.9);
+        margin-top: 2.5em;
+        margin-left: 8em;
+    }
+    .start{
+        margin-top: -0.5em;
     }
 
 
