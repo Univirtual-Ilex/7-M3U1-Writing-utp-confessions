@@ -19,6 +19,8 @@ import ButtonCheck from '../ButtonCheck'
 import InputWords from '../InputWords'
 import ButtonDown from '../ButtonDown'
 
+import Tooltip from '../Tooltip'
+
 
 const Actividad_base =  ({staticContext, ...props}) => {
 	
@@ -28,18 +30,23 @@ const Actividad_base =  ({staticContext, ...props}) => {
 	const [inputOk, setInput] = useState(false)
 	const [inputErr, setInputErr] = useState(false)
 
+	const [tooltipError, setTooltipError] = useState(false)
 
 
-
+	const closetooltip = () => {
+        setTooltipError(!tooltipError)
+    }
 
 	const checkAnswers = () =>{
 		if(passed){
 			window.location.href = '/actividad2'
+		}else{
+			setTooltipError(true)
 		}
 	}
 	
 	const checkText = (text) => {
-		if(text.split(' ').length >= 150){
+		if(text.match(/\S+/g) && text.match(/\S+/g).length >= 150){
 			setInput(true)
 			setInputErr(false)
 			setPassed(true)
@@ -99,6 +106,10 @@ const Actividad_base =  ({staticContext, ...props}) => {
 	                </ICol>
 	            </IRow>
             </div>
+            <Tooltip visible={tooltipError} closebtn={closetooltip} w={30} pos={"70em, 50em"}>
+                <h3>Error</h3>
+                <p>Please complete the 150 words</p>
+            </Tooltip>
         </Container>
     )
 
