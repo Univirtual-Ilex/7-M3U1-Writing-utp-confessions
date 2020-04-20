@@ -1,6 +1,6 @@
 import React from 'react';
 import Fondo from './components/Fondo'
-import {BrowserRouter, Route } from 'react-router-dom'
+import {HashRouter, Route } from 'react-router-dom'
 
 // eslint-disable-next-line
 import Modal from './components/Generales/Modal'
@@ -53,11 +53,11 @@ const App = () => {
     <>
       <Gstyle/>
       <Fondo degradado={Ilex.degradado('90deg',Ilex.color_amarilloClaro,Ilex.color_amarilloOscuro)}>
-        <BrowserRouter>
+        <HashRouter>
 	        <Route path='/' exact  component={Home} />
 	        <Route path='/actividad1'  component={Actividad1} />
 	        <Route path='/actividad2'  component={Actividad2} />
-      	</BrowserRouter>
+      	</HashRouter>
       </Fondo>
       <Modal w='30'>
       </Modal>

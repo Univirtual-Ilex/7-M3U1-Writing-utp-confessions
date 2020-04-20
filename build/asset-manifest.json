@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/ilex/interactions/35-7M3U1W/static/js/main.edd7fef0.chunk.js",
+    "main.js.map": "/ilex/interactions/35-7M3U1W/static/js/main.edd7fef0.chunk.js.map",
+    "runtime-main.js": "/ilex/interactions/35-7M3U1W/static/js/runtime-main.bb98004a.js",
+    "runtime-main.js.map": "/ilex/interactions/35-7M3U1W/static/js/runtime-main.bb98004a.js.map",
+    "static/js/2.838e8e98.chunk.js": "/ilex/interactions/35-7M3U1W/static/js/2.838e8e98.chunk.js",
+    "static/js/2.838e8e98.chunk.js.map": "/ilex/interactions/35-7M3U1W/static/js/2.838e8e98.chunk.js.map",
+    "index.html": "/ilex/interactions/35-7M3U1W/index.html",
+    "precache-manifest.6858cb0ba96b7a007653f353dacaaf28.js": "/ilex/interactions/35-7M3U1W/precache-manifest.6858cb0ba96b7a007653f353dacaaf28.js",
+    "service-worker.js": "/ilex/interactions/35-7M3U1W/service-worker.js",
+    "static/js/2.838e8e98.chunk.js.LICENSE": "/ilex/interactions/35-7M3U1W/static/js/2.838e8e98.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb98004a.js",
+    "static/js/2.838e8e98.chunk.js",
+    "static/js/main.edd7fef0.chunk.js"
+  ]
+}

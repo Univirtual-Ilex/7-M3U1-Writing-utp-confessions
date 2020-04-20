@@ -62,7 +62,7 @@ const Actividad_base =  ({staticContext, ...props}) => {
             <div className="" > 
 	            <UiButtonsContainer>
 	                <ButtonUi icon='ilx-ayuda' tooltip='Write about your experiences, not less than 150 words' />
-	                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad1'} } />
+	                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.reload()} } />
 	            </UiButtonsContainer>
 	            <IRow pt={5} className="text-center">
 	                <ICol >

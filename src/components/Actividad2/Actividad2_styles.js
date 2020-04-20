@@ -13,7 +13,7 @@ const styles = css`
     color: ${Ilex.textos};
 }
 .check{
-    margin-top: 8em; 
+    margin-top: 8.2em; 
 }
 .dnd{
     width: 100%;

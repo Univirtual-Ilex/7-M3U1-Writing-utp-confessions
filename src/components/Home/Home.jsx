@@ -10,7 +10,7 @@ const Home_base = function ({staticContext, ...props}) { // se le pasan las prop
     return (
         <Container {...props}  row bgImage="src/bg.png" >
 
-                    <div className='bloque-izquierdo'>
+                    <div className='bloque-izquierdo entrada-top-Y-2'>
                         <div className='bloque-izquierdo-container'>
                             <h1> UTP confessions</h1>
                             <p>
@@ -18,7 +18,7 @@ const Home_base = function ({staticContext, ...props}) { // se le pasan las prop
                             <ButtonLink  className="start" to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
-                    <div className='bloque-derecho'>
+                    <div className='bloque-derecho entrada-top-Y-3'>
                     	<ICol>
 	                        <figure>
 	                            <img className="img" src='./src/cover.png' alt='Logo' />    

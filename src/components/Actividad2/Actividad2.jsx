@@ -74,7 +74,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
             <div className="" > 
                 <UiButtonsContainer>
                     <ButtonUi icon='ilx-ayuda' tooltip='Write about your experiences, not less than 150 words' />
-                    <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad2'} } />
+                    <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.reload()} } />
                 </UiButtonsContainer>
                 <IRow pt={1.5} className="text-center">
                     <ICol py={ 0.5 }>
@@ -93,7 +93,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
                 </IRow>
             </div>
             <ButtonCheck2 text={'check'} className="check" onClick={checkAnswers} ></ButtonCheck2>
-        <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad2'} finished={ok} />
+        <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'#/actividad2'} finished={ok} />
         </Container>
     )
 }
